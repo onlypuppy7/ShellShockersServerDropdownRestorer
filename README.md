@@ -11,6 +11,6 @@ Puts back the server dropdown which was removed from the game some years ago. Wo
 <center>
 <img src="./image.png" alt="image" height="200px">
 <img src="./image-1.png" alt="image-1" height="200px">
-
+<br>
 *The two configurations.*
 </center>
