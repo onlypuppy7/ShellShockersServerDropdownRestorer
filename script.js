@@ -2,7 +2,7 @@
 // @name         Shell Shockers Server Dropdown Restorer
 // @namespace    https://github.com/onlypuppy7/ShellShockersServerDropdownRestorer/
 // @license      GPL-3.0
-// @version      1.0.0
+// @version      1.0.1
 // @author       onlypuppy7
 // @description  Puts back the server dropdown which was removed from the game some years ago. Has two modes, works with latest interface.
 // @match        https://shellshock.io/*
@@ -33,6 +33,7 @@ const mode = "puppy"; // classic OR puppy
             regionSelect.style.top = "41em";
             regionSelect.style.left = "50%";
             regionSelect.style.marginLeft = "14em";
+            regionSelect.style.zIndex = "-1";
         };
     };
 })();
